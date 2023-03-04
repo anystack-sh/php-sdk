@@ -1,0 +1,19 @@
+{
+    "name": "anystack-sh/php-sdk",
+    "description": "PHP SDK for the Anystack API",
+    "require": {
+        "sammyjo20/saloon": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anystack\\Sdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Philo Hermans",
+            "email": "philo@anystack.sh"
+        }
+    ]
+}
